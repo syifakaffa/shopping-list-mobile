@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_list/menu.dart';
+import 'package:shopping_list/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,9 +33,7 @@ class MyApp extends StatelessWidget {
        
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home: MyHomePage()
     );
   }
 }
-
-
